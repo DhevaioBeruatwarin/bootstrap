@@ -1,0 +1,17 @@
+body {
+  background-image: url(backPICE.jpg);
+  min-height: -100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.carousel-item img {
+  width: 500px; /* Atur ukuran gambar */
+  height: 500px; /* Buat jadi kotak */
+  object-fit: cover; /* Hindari gambar gepeng */
+  display: block;
+  margin: auto; /* Biar posisinya rapi */
+  margin-top: 43px;
+}

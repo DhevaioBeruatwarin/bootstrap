@@ -1,0 +1,41 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9); /* Latar belakang semi-transparan */
+  backdrop-filter: blur(5px); /* Efek blur untuk transparansi */
+}
+
+body {
+  padding-top: 70px;
+  background-image: url(backPICE.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 1000px;
+}
+.container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem; /* Ukuran besar */
+  font-weight: 800; /* Tebal */
+  color: white;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem; /* Sedikit lebih besar dari default */
+  font-weight: 500; /* Sedikit lebih tebal */
+  color: white;
+  margin-right: 16px;
+}
+
+.game-card:hover {
+  transform: scale(1.05); /* Memperbesar gambar saat hover */
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); /* Efek cahaya kuning */
+}
+.card p {
+  color: black;
+}
